@@ -1,0 +1,57 @@
+body {
+    
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-image: url('img/Papeis-de-parede-3d.jpg');
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.quiz-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.choices label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.get-started-btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(17, 70, 184); /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border-radius: 5px; /* Borda arredondada */
+    font-weight: bold; /* Texto em negrito */
+}
+
+.get-started-btn button {
+    background: none;
+    border: none;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 24px;
+    color: rgb(255, 0, 0);
+}
